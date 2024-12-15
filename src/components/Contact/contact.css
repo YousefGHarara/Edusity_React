@@ -1,0 +1,113 @@
+.contact {
+  margin: 80px auto;
+  max-width: 90%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.contact-col {
+  flex-basis: 48%;
+  color: #676767;
+}
+
+.contact-col h3 {
+  color: #000f38;
+  font-weight: 500;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center ;
+  margin-bottom: 20px;
+}
+
+.contact-col h3 img{
+    width: 35px;
+    margin-left: 10px;
+}
+
+.contact-col p {
+  max-width: 460px;
+  line-height: 1.3;
+}
+
+.contact-col ul li {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.contact-col ul li img {
+  width: 20px ;
+  margin-right: 10px;
+}
+
+.contact-col form {
+
+}
+
+.contact-col form :is(input, textarea) {
+  display: block;
+  width: 100%;
+  background-color: #ebecfe;
+  border: 0;
+  outline: 0;
+  padding: 15px 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  resize: none;
+  border: 1px solid #ccc;
+
+}
+
+.contact-col form :is(input, textarea)::placeholder {
+  font-size: 15px;
+  color: #a5a5a5;
+}
+
+.contact-col span {
+  align-items: center;
+  display: inline-flex;
+  margin: 20px 0;
+}
+
+.contact-col span small {
+  width: 25px;
+  height: 25px;
+  border: 4px solid #000ea0;
+  border-top-color: transparent;
+  margin-left: 10px;
+  border-radius: 50%;
+  animation-name: loader;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0);
+  }
+
+  25%{
+    transform: rotate(90deg);
+  }
+  
+  75%{
+    transform: rotate(180deg);
+    
+  }
+  
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width: 800px) {
+
+  .contact {
+    display: block;
+  }
+  
+}
