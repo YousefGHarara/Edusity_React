@@ -18,7 +18,7 @@ const About = ({ setPlayState }) => {
         variants={fadeIn("right", 0.2)}
         initial="hidden"
         whileInView={"visible"}
-        viewport={{ once: false, amount: 0.7 }}
+        // viewport={{ once: false, amount: 0.7 }}
         className="about-left"
       >
         <img className="about-img" src={about_img} alt="" />
@@ -33,7 +33,7 @@ const About = ({ setPlayState }) => {
         variants={fadeIn("left", 0.2)}
         initial="hidden"
         whileInView={"visible"}
-        viewport={{ once: false, amount: 0.7 }}
+        // viewport={{ once: false, amount: 0.7 }}
         className="about-right"
       >
         <h3>ABOUT UNIVERSITY</h3>

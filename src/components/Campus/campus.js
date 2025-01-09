@@ -17,7 +17,7 @@ const Campus = () => {
           variants={fadeIn("left", 0.2)}
           initial="hidden"
           whileInView={"visible"}
-          viewport={{ once: false, amount: 0.7 }}
+          // viewport={{ once: false, amount: 0.7 }}
           src={gallery_1}
           alt=""
         />
@@ -25,7 +25,7 @@ const Campus = () => {
           variants={fadeIn("left", 0.25)}
           initial="hidden"
           whileInView={"visible"}
-          viewport={{ once: false, amount: 0.7 }}
+          // viewport={{ once: false, amount: 0.7 }}
           src={gallery_2}
           alt=""
         />
@@ -33,7 +33,7 @@ const Campus = () => {
           variants={fadeIn("left", 0.3)}
           initial="hidden"
           whileInView={"visible"}
-          viewport={{ once: false, amount: 0.7 }}
+          // viewport={{ once: false, amount: 0.7 }}
           src={gallery_3}
           alt=""
         />
@@ -41,7 +41,7 @@ const Campus = () => {
           variants={fadeIn("left", 0.35)}
           initial="hidden"
           whileInView={"visible"}
-          viewport={{ once: false, amount: 0.7 }}
+          // viewport={{ once: false, amount: 0.7 }}
           src={gallery_4}
           alt=""
         />

@@ -17,7 +17,7 @@ const Programs = () => {
         variants={fadeIn("up", 0.2)}
         initial="hidden"
         whileInView={"visible"}
-        viewport={{ once: false, amount: 0.7 }}
+        // viewport={{ once: false, amount: 0.7 }}
         className="program"
       >
         <img className="program-img" src={program_1} alt="" />
@@ -30,7 +30,7 @@ const Programs = () => {
         variants={fadeIn("up", 0.3)}
         initial="hidden"
         whileInView={"visible"}
-        viewport={{ once: false, amount: 0.7 }}
+        // viewport={{ once: false, amount: 0.7 }}
         className="program"
       >
         <img className="program-img" src={program_2} alt="" />
@@ -43,7 +43,7 @@ const Programs = () => {
         variants={fadeIn("up", 0.4)}
         initial="hidden"
         whileInView={"visible"}
-        viewport={{ once: false, amount: 0.7 }}
+        // viewport={{ once: false, amount: 0.7 }}
         div
         className="program"
       >
