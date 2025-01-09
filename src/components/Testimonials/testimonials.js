@@ -7,6 +7,8 @@ import user_1 from "../../assets/user-1.png";
 import user_2 from "../../assets/user-2.png";
 import user_3 from "../../assets/user-3.png";
 import user_4 from "../../assets/user-4.png";
+import {motion} from "framer-motion"
+import { fadeIn } from "../../variants";
 
 const Testimonials = () => {
 
@@ -32,7 +34,14 @@ const Testimonials = () => {
   }
 
   return (
-    <div className="testimonials">
+    <motion.div 
+
+    variants={fadeIn("right", .2)}
+    initial="hidden"
+    whileInView={"visible"}
+    // viewport={{once: false, amount: .7}}
+    
+    className="testimonials">
       <img className="next-btn" src={next_icon} alt="" onClick={clickForward}/>
       <img className="back-btn" src={back_icon} alt="" onClick={clickBackward}/>
       <div className="slider">
@@ -110,7 +119,7 @@ const Testimonials = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

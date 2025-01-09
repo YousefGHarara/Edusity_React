@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 import logo from '../../assets/logo.png';
 import menu_icon from '../../assets/menu-icon.png';
 // import { Link } from "react-router-dom";
-import { Link } from "react-scroll";
+import { Link, Button, ScrollElement } from "react-scroll";
 
 const Navbar = () => {
 
